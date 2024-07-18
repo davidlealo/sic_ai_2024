@@ -2,6 +2,8 @@
 
 El día de hoy realizaremos un ejercicio de trabajo en grupos. Cada grupo tendrá una subunidad asignada la que deberá explicar generando un archivo de práctica con ejemplos y ejercicios para resolver en el curso.
 
+Debes dejar tu ejercicio en la carpeta de tu capítulo, según corresponda, recuerda que debemos ignorar los archivos que no son código. 
+
 # Instrucciones para colaborar en este repositorio utilizando Google Colab
 
 Sigue estos pasos para hacer un fork de este repositorio, trabajar en él desde Google Colab y enviar tus cambios mediante un pull request.
