@@ -26,12 +26,22 @@ Sigue estos pasos para hacer un fork de este repositorio, trabajar en él desde 
 
 4. Reemplaza `tu-usuario` con tu nombre de usuario de GitHub y `nombre-del-repositorio` con el nombre del repositorio que has forked.
 
-## 3. Trabajar en los Archivos
+## 3. Crear una Nueva Rama
+
+1. Antes de hacer cualquier cambio, crea una nueva rama para trabajar en tu tema específico:
+
+    ```python
+    !git checkout -b nombre-de-la-rama
+    ```
+
+2. Reemplaza `nombre-de-la-rama` con un nombre descriptivo para tu rama.
+
+## 4. Trabajar en los Archivos
 
 1. Abre y edita los archivos `.ipynb` dentro del repositorio clonado.
 2. Puedes usar el navegador de archivos en la parte izquierda de la interfaz de Colab para abrir un notebook específico.
 
-## 4. Guardar y Hacer Commits
+## 5. Guardar y Hacer Commits
 
 1. Una vez que hayas hecho los cambios necesarios, guarda los cambios y haz commits directamente desde Colab usando los siguientes comandos:
 
@@ -42,20 +52,18 @@ Sigue estos pasos para hacer un fork de este repositorio, trabajar en él desde 
 
 2. Reemplaza `nombre-del-archivo.ipynb` con el nombre del archivo que has editado y proporciona una descripción adecuada de los cambios en el commit.
 
-## 5. Empujar los Cambios a tu Repositorio Fork
+## 6. Empujar los Cambios a tu Repositorio Fork
 
 1. Empuja los cambios a tu repositorio fork en GitHub:
 
     ```python
-    !git push origin main
+    !git push origin nombre-de-la-rama
     ```
 
-2. Asegúrate de reemplazar `main` con el nombre de la rama que estás utilizando si es diferente.
+2. Asegúrate de reemplazar `nombre-de-la-rama` con el nombre de la rama que has creado.
 
-## 6. Crear un Pull Request
+## 7. Crear un Pull Request
 
 1. Ve a tu repositorio fork en GitHub.
 2. Haz clic en el botón "Compare & pull request" para iniciar el proceso de creación del pull request.
 3. Proporciona una descripción detallada de los cambios y envía el pull request para revisión.
-
-¡Gracias por tu colaboración!
