@@ -4,6 +4,13 @@ El día de hoy realizaremos un ejercicio de trabajo en grupos. Cada grupo tendr�
 
 Debes dejar tu ejercicio en la carpeta de tu capítulo, según corresponda, recuerda que debemos ignorar los archivos que no son código. 
 
+# Enlaces a Carpetas
+
+- [3.1.3 NumPy Array Operations](./3.1.3_NumPy_Array_Operations/)
+- [3.1.4 NumPy Indexing and Slicing](./3.1.4_NumPy_Indexing_and_Slicing/)
+- [3.1.5 Array Transposition and Axis Swap](./3.1.5_Array_Transposition_and_Axis_Swap/)
+
+
 # Instrucciones para colaborar en este repositorio utilizando Google Colab
 
 Sigue estos pasos para hacer un fork de este repositorio, trabajar en él desde Google Colab y enviar tus cambios mediante un pull request.
