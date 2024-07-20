@@ -6,6 +6,8 @@ En esta clase revisaremos el material de
 
 - Tratamos de ver la Unidad 3 pero no alcanzó el tiempo
 
+- [Colab trabajados](./3.2_pandas/)
+
 # Tarea sesión
 
 Realizar un análisis de los datos con Pandas de alguna de los siguientes archivos y enviarlos a mi correo
