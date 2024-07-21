@@ -10,3 +10,5 @@ Las primeras clases son introductorias al contexto de la AI y a matemáticas bá
 En la carpeta de preprocesamiento hasta el momento trabajamos los conceptos iniciales de Numpy y Pandas.
 
 Puedes ver esta carpeta en: [Carpeta](./002_preprocesamiento/)
+
+
