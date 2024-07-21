@@ -1,4 +1,4 @@
-# Repositorio de SIC Chile 2024: INteligencia Artificial
+# Repositorio de SIC Chile 2024: Inteligencia Artificial
 SIC AI 2024 Chile clases de julio a octubre.
 
 Las primeras clases son introductorias al contexto de la AI y a matemáticas básicas para data science. Acá tenemos una carpeta con temas introductorios de Python en:
