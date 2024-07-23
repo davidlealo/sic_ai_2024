@@ -60,3 +60,7 @@ array2 = np.array([4, 5, 6])
 array3 = np.array([7, 8, 9])
 
 ```
+![img]()
+```python
+import numpy as np
+```
