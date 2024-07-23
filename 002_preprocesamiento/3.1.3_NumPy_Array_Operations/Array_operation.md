@@ -1,10 +1,11 @@
 # Numpy Array Operations 
-* [1. Suma](#1-suma)
-* [2. Resta](#2-resta)
-* [3. Multiplicación ](#3-multiplicación)
-* [4. Repeat & Tile](#4-repeat-&-Tile)
-* [5. Método Mosaico](#5-método-mosaico)
-* [6. Funciones Universales y Métodos Estadísticos ](#6-funciones-universales)
+* [1.Suma](#1-suma)
+* [2.Resta](#2-resta)
+* [3.Multiplicación ](#3-multiplicación)
+* [4.Repeat y Tile](#4-repeat-y-tile)
+* [5.Método Mosaico](#5-método-mosaico)
+* [6.Funciones Universales y Métodos Estadísticos ](#6-funciones-universales)
+
 ## 1.Suma
 Primero definimos 2 variables, en este caso son 2 listas. Al sumarlas el resultado sería una nueva lista concatenada.
 ```python
@@ -35,7 +36,7 @@ import numpy as np
 ```python
 import numpy as np
 ```
-## 4.Repeat & Tile
+## 4.Repeat y Tile
 ```python
 import numpy as np
 ```
