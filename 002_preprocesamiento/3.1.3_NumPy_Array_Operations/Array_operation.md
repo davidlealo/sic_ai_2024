@@ -60,7 +60,8 @@ array2 = np.array([4, 5, 6])
 array3 = np.array([7, 8, 9])
 
 ```
-![img]()
+![img](https://github.com/Carolinava21/sic_ai_2024/blob/Array-Operations/002_preprocesamiento/3.1.3_NumPy_Array_Operations/img/Funciones-Universales.png)
+
 ```python
 import numpy as np
 ```
