@@ -62,6 +62,18 @@ array3 = np.array([7, 8, 9])
 ```
 ![img](https://github.com/Carolinava21/sic_ai_2024/blob/Array-Operations/002_preprocesamiento/3.1.3_NumPy_Array_Operations/img/Funciones-Universales.png)
 
+### Funciones Trigonométricas
 ```python
 import numpy as np
+#sin, cos, tan
+senoArray1 = np.sin(array1)
+cosenoArray2 = np.cos(array2)
+tangenteArray3 = np.tan(array3)
+
+print("Seno de array1:", senoArray1)
+print("Coseno de array2:", cosenoArray2)
+print("Tangente de array3:", tangenteArray3)
+#Seno de array1: [0.84147098 0.90929743 0.14112001]
+#Coseno de array2: [-0.65364362  0.28366219  0.96017029]
+#Tangente de array3: [ 0.87144798 -6.79971146 -0.45231566]
 ```
