@@ -2,9 +2,10 @@
 * [1. Suma](#1-suma)
 * [2. Resta](#2-resta)
 * [3. Multiplicación](#3-multiplicacion)
-* [4. Repeat y Tile](#4-repeat-y-tile)
-* [5. Método Mosaico](#5-metodo-mosaico)
-* [6. Funciones Universales y Métodos Estadísticos](#6-funciones-universales)
+* [4. División](*-division)
+* [5. Repeat y Tile](#4-repeat-y-tile)
+* [6. Método Mosaico](#5-metodo-mosaico)
+* [7. Funciones Universales y Métodos Estadísticos](#6-funciones-universales)
 
 ## 1. Suma
 Primero definimos 2 variables, en este caso son 2 listas. Al sumarlas el resultado sería una nueva lista concatenada.
@@ -50,7 +51,17 @@ print(resta)
 ```python
 import numpy as np
 ```
-## 4. Repeat y Tile
+## 4. División
+```python
+import numpy as np
+arr1 = np.array([15,280,38])
+arr2 = np.array([30,5,50])
+div = arr1 / arr2
+print(div)
+#[ 0.5  56.    0.76]
+```
+
+## 5. Repeat y Tile
 En el contexto de operaciones con arrays en Python, usando la biblioteca NumPy, las funciones "repeat" y "tile" son utilizadas para manipular y duplicar elementos en un array de diferentes maneras.
 
 -  Repeat:
@@ -121,11 +132,11 @@ print('Usando Tile:',tile_c)
 #Usando Tile: [7 8 9 7 8 9 7 8 9 7 8 9 7 8 9]
 ```
 
-## 5. Método Mosaico
+## 6. Método Mosaico
 ```python
 import numpy as np
 ```
-## 6. Funciones Universales y Métodos Estadísticos 
+## 7. Funciones Universales y Métodos Estadísticos 
 ### Características principales:
 - Operaciones elementales: Las funciones universales realizan operaciones matemáticas básicas como suma, resta, multiplicación, división, potencia, logaritmos, funciones trigonométricas, etc.
 - Trabajo con arrays: Operan directamente sobre arrays NumPy, lo que las hace ideales para trabajar con grandes conjuntos de datos.
