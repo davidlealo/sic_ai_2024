@@ -37,8 +37,72 @@ import numpy as np
 import numpy as np
 ```
 ## 4. Repeat y Tile
+En el contexto de operaciones con arrays en Python, usando la biblioteca NumPy, las funciones "repeat" y "tile" son utilizadas para manipular y duplicar elementos en un array de diferentes maneras.
+
+### Repeat:
+La función "repeat" de NumPy se utiliza para repetir elementos de un array a lo largo de un eje especificado y un específico de de veces.
+
+### numpy.repeat:
+Considerando:
+
+a= El array de entrada
+
+repeats= El número de repeticiones para cada elemento.
+
+axis= El eje a lo largo del cual repetir los valores (opcional)
+
+Ejemplo:
 ```python
 import numpy as np
+#Array de ejemplo:
+a=np.array([1,2,3])
+
+#Repetir cada elemento 2 veces
+rep_a=np.repeat(a,2)
+print(rep_a)
+#[1 1 2 2 3 3]
+```
+En el ejemplo anterior, el array "a" se repite 2 veces consecutivamente.
+
+### Tile:
+Por otro lado, la funciópn "tile", se utiliza para construir un nuevo array repitiendo el array de entrada un número especificado de veces.
+
+### numpy.tile(b, rep)
+Considerando:
+
+b= El array de entrada rep=El número de repeticiones del array.
+
+Ejemplo:
+```python
+import numpy as np
+#Array de ejemplo
+b=np.array([4,5,6])
+
+#Repetir todo el array 3 veces
+tile_b=np.tile(b,3)
+
+print(tile_b)
+#[4 5 6 4 5 6 4 5 6]
+```
+En el ejemplo anterior, el array "b" se repite como toda una entrada 3 veces.
+### Diferencias entre Repeat & Tile:
+- Repeat: repite cada elemento individual del array el número de veces que uno desea.
+- Tile: repite el array completo el número de veces que se especifica.
+Ejemplo de como usar Repeat & Tile para ver las diferencias entre estas 2 opciones:
+```python
+import numpy as np
+#Array de ejemplo
+c=np.array([7,8,9])
+
+#Usando Repeat
+rep_c=np.repeat(c,5)
+print('Usando Repeat:',rep_c)
+
+#Usando Tile
+tile_c=np.tile(c,5)
+print('Usando Tile:',tile_c)
+#Usando Repeat: [7 7 7 7 7 8 8 8 8 8 9 9 9 9 9]
+#Usando Tile: [7 8 9 7 8 9 7 8 9 7 8 9 7 8 9]
 ```
 
 ## 5. Método Mosaico
