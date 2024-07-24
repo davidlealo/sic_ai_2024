@@ -27,9 +27,15 @@ print(resultado)  # array([11, 13, 15])
 ```
 
 ## 2. Resta
+Sí al comparar dos listas, y ambas matrices tiene la misma forma se pueden realizar operaciones de suma, resta, mútiplicación y división.
 
 ```python
 import numpy as np
+arr1 = np.array([15,20,30])
+arr2 = np.array([8,16,24])
+resta = arr1 - arr2
+print(resta)
+#[7 4 6]
 ```
 
 ## 3. Multiplicación 
