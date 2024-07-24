@@ -39,10 +39,10 @@ import numpy as np
 ## 4. Repeat y Tile
 En el contexto de operaciones con arrays en Python, usando la biblioteca NumPy, las funciones "repeat" y "tile" son utilizadas para manipular y duplicar elementos en un array de diferentes maneras.
 
-### Repeat:
+- ### Repeat:
 La función "repeat" de NumPy se utiliza para repetir elementos de un array a lo largo de un eje especificado y un específico de de veces.
 
-### numpy.repeat:
+- ### numpy.repeat:
 Considerando:
 
 a= El array de entrada
@@ -64,10 +64,10 @@ print(rep_a)
 ```
 En el ejemplo anterior, el array "a" se repite 2 veces consecutivamente.
 
-### Tile:
+ - ### Tile:
 Por otro lado, la funciópn "tile", se utiliza para construir un nuevo array repitiendo el array de entrada un número especificado de veces.
 
-### numpy.tile(b, rep)
+- ### numpy.tile(b, rep)
 Considerando:
 
 b= El array de entrada rep=El número de repeticiones del array.
