@@ -86,7 +86,7 @@ print(tile_b)
 ```
 En el ejemplo anterior, el array "b" se repite como toda una entrada 3 veces.
 ### Diferencias entre Repeat & Tile:
-- #### Repeat: 
+* #### Repeat: 
 repite cada elemento individual del array el número de veces que uno desea.
 - #### Tile: 
 repite el array completo el número de veces que se especifica.
