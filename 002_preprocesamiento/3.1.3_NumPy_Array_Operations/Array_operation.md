@@ -8,6 +8,7 @@
 
 ## 1. Suma
 Primero definimos 2 variables, en este caso son 2 listas. Al sumarlas el resultado sería una nueva lista concatenada.
+Si al comparar dos listas, y ambas matrices tiene la misma forma se pueden realizar operaciones de suma, resta, mútiplicación y división.
 ```python
 
 arr1 = [4,5,6]
@@ -27,7 +28,6 @@ print(resultado)  # array([11, 13, 15])
 ```
 
 ## 2. Resta
-Sí al comparar dos listas, y ambas matrices tiene la misma forma se pueden realizar operaciones de suma, resta, mútiplicación y división.
 
 ```python
 import numpy as np
@@ -36,6 +36,14 @@ arr2 = np.array([8,16,24])
 resta = arr1 - arr2
 print(resta)
 #[7 4 6]
+```
+```python
+import numpy as np
+arr1 = np.array([18,28,3])
+arr2 = np.array([30,5,26])
+resta = arr1 - arr2
+print(resta)
+#[-12  23 -23]
 ```
 
 ## 3. Multiplicación 
