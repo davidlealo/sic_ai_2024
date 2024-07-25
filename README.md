@@ -11,4 +11,5 @@ En la carpeta de preprocesamiento hasta el momento trabajamos los conceptos inic
 
 Puedes ver esta carpeta en: [Carpeta](./002_preprocesamiento/)
 
+Además en esta carpeta se ven temas de visualizaciones en la última unidad del capítulo tres. 
 
