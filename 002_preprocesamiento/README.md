@@ -10,3 +10,6 @@ Estos ejemplos tipo ggplot tienen unos mapas. La información de los gráficos d
 Además en la sesión del jueves 25 de julio con el Grupo A trabajamos la siguiente versión del documento [link](/002_preprocesamiento/Chapter_3/[dlo-gripo-a]SIC_AI_Ch03_Unit04.ipynb)
 
 También Paulina nos compartió un buen ejemplo de uso de variables con listas para crear paletas de colores [link](https://github.com/paulinasv/Clases_SIC_IA/blob/main/forms_bootcamp_ejemplo.ipynb)
+
+
+También sumo el código que arregló Carolina [link](/002_preprocesamiento/Chapter_3/volumen_y_porcentaje.ipynb)
