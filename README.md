@@ -22,7 +22,7 @@ En la carpeta de preprocesamiento, trabajamos los conceptos iniciales de Numpy, 
 
 En esta unidad, aprenderás los conceptos iniciales de estadística y probabilidad, así como temas introductorios a machine learning. La carpeta correspondiente está disponible en:
 
-> [Carpeta de Estadística](./003_Estadistica/)
+> [Carpeta de Estadística](./003_estadistica/)
 
 ## Machine Learning
 
