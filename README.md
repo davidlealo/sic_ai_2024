@@ -32,23 +32,26 @@ En esta unidad, exploraremos modelos supervisados y no supervisados de machine l
 
 ## Cómo Utilizar Este Repositorio
 
-1. **Clonar el repositorio:**
+1. **Haz un fork del repositorio original:**
+    Ve a la página del repositorio en GitHub y haz clic en el botón "Fork".
+
+2. **Clona tu fork del repositorio:**
     ```bash
-    git clone https://github.com/davidlealo/sic_ai_2024.git
+    git clone https://github.com/TU_USUARIO/sic_ai_2024.git
     cd sic_ai_2024
     ```
 
-2. **Instalar las dependencias:**
+3. **Instala las dependencias:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Ejecutar los notebooks en Jupyter:**
+4. **Ejecuta los notebooks en Jupyter:**
     ```bash
     jupyter notebook
     ```
 
-4. **Explorar los notebooks mencionados para aprender sobre los diferentes temas de preprocesamiento de datos.**
+5. **Explora los notebooks mencionados para aprender sobre los diferentes temas de preprocesamiento de datos.**
 
 ## Contribuciones
 
