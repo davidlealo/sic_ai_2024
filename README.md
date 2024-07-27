@@ -10,7 +10,7 @@
 
 Las primeras clases son introductorias al contexto de la inteligencia artificial y a las matemáticas básicas para data science. Puedes acceder a la carpeta con temas introductorios de Python en:
 
-> [Archivo de Introducción](./001_intro_curso/introduccion.ipynb)
+> [Carpeta de Introducción](./001_introduccion/)
 
 ## Preprocesamiento
 
