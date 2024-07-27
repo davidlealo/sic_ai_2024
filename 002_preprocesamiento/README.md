@@ -12,7 +12,7 @@ En esta clase veremos temas de visualización. Trabajaremos con el siguiente [ar
 ### Documentos Trabajados en Sesiones Anteriores
 
 - **Grupo A (jueves 25 de julio)**: [Versión del documento trabajada](/002_preprocesamiento/Chapter_3/[dlo-gripo-a]SIC_AI_Ch03_Unit04.ipynb).
-- **Grupo B (viernes)**: [Archivo trabajado](/002_preprocesamiento/Chapter_3/[dlo-grupo-b]Copia_de_SIC_AI_Ch03_Unit04.ipynb).
+- **Grupo B (viernes 26 de julio)**: [Archivo trabajado](/002_preprocesamiento/Chapter_3/[dlo-grupo-b]Copia_de_SIC_AI_Ch03_Unit04.ipynb).
 
 ### Ejemplos Compartidos por Estudiantes
 
