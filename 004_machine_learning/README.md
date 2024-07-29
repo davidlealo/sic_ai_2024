@@ -1,3 +1,5 @@
+# Clase 10: Machine LEarning 
+
 # Análisis de Datos: Variables Dependientes y Variables Independientes
 
 En el análisis de datos, las variables se suelen clasificar en dos tipos principales: variables dependientes y variables independientes. Aquí tienes una descripción de cada una y su papel en el análisis de datos:
