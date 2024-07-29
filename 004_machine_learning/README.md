@@ -1,4 +1,4 @@
-# Clase 10: Machine LEarning 
+# Clase 10: Machine Learning 
 
 # Análisis de Datos: Variables Dependientes y Variables Independientes
 
@@ -43,3 +43,4 @@ Supongamos que estamos investigando el impacto de la educación y la experiencia
 - **Variable Dependiente:** Salario (en dólares).
 
 En este caso, podríamos realizar un análisis de regresión múltiple para determinar cómo cada una de estas variables independientes afecta el salario de los empleados.
+
