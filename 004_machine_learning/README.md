@@ -27,12 +27,13 @@ El objetivo del análisis de datos es entender cómo las variables independiente
 **Ejemplo de Regresión Lineal:**
 Supongamos que queremos analizar cómo el número de horas de estudio y la asistencia a clases (variables independientes) afectan la calificación de los estudiantes (variable dependiente). Podríamos usar una regresión lineal para modelar esta relación:
 
-\[ \text{Calificación} = \beta_0 + \beta_1 (\text{Horas de Estudio}) + \beta_2 (\text{Asistencia a Clases}) + \epsilon \]
+Calificación = β0 + β1 * (Horas de Estudio) + β2 * (Asistencia a Clases) + ε
+
 
 Donde:
-- \(\beta_0\) es la intersección (constante)
-- \(\beta_1\) y \(\beta_2\) son los coeficientes de las variables independientes
-- \(\epsilon\) es el término de error
+- `β0` es la intersección (constante)
+- `β1` y `β2` son los coeficientes de las variables independientes
+- `ε` es el término de error
 
 ## Ejemplo Práctico:
 
