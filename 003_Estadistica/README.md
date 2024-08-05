@@ -6,3 +6,8 @@ Joaquín nos compartió la siguiente [página](https://www.juanbarrios.com/la-ma
 
 El primer grupo compartió su código en [link](./chapter_4/GRUPO%201%20CODIGO/GRUPO%201.py)
 
+### Material original
+
+1) Distribución probabilidad: [link](./chapter_4/15.%20ex_0201.ipynb)
+
+2) 
