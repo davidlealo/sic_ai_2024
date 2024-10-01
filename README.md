@@ -30,6 +30,25 @@ En esta unidad, exploraremos modelos supervisados y no supervisados de machine l
 
 > [Carpeta de Machine Learning](./004_machine_learning/)
 
+#### Procesamiento de Lenguaje Natural (PLN)
+En esta unidad, se abordan los conceptos y técnicas del PLN, incluyendo análisis de sentimiento, traducción automática y generación de texto. Puedes acceder a la carpeta aquí:
+
+Carpeta de PLN
+> [Carpeta de PLN](./005_pln/)
+
+#### Deep Learning
+Esta unidad se adentra en las redes neuronales profundas, incluyendo arquitecturas como CNNs y RNNs para el procesamiento de imágenes y secuencias. Puedes acceder a la carpeta aquí:
+
+Carpeta de Deep Learning
+> [Carpeta de Deep Learning](./006_deep_learning/)
+
+#### Proyecto Final
+En esta etapa final, se desarrolla un proyecto que aplica los conocimientos adquiridos durante el curso a un problema real. La información sobre el proyecto final se encuentra en:
+
+Carpeta de Proyecto final
+> [Carpeta de Proyecto](./075_proyecto/)
+
+
 ## Cómo Utilizar Este Repositorio
 
 1. **Haz un fork del repositorio original:**
