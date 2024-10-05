@@ -1,0 +1,22 @@
+EconomIA.
+
+Objetivo:
+Crear una plataforma digital que permita a usuarios registrar sus movimientos bancarios para visualizar y controlar mejor sus gastos, mediante predicciones, alertas y consejos por parte de la plataforma
+
+Resumen:
+EconomIA busca permitir a usuarios llevar un orden de sus finanzas personales, categorizando sus tipos de gasto y orientando la responsabilidad y sanidad financiera a través de recomendaciones procedentes de un previo entrenamiento a la IA. 
+
+EconomIA es una plataforma digital que promueve el orden financiero de una persona. Considerando sus gastos mensuales, es capaz de entregar una estructura que le permita al usuario visualizar, clasificar y proyectar sus gastos para aprender la mejor forma de ordenarlos. 
+
+Método.
+En términos de organización, el equipo aplica la metodología ágil SCRUM dentro de lo posible, cumpliendo con reuniones semanales y un registro de tareas por Hitos de 2 semanas.  
+
+datos.
+Hasta ahora hemos descargado nuestros propios datos bancarios como sujetos de testeo de las funcionalidades que esperamos crear. Descargamos los PDF y en algunos casos los excel, desde nuestros respectivos bancos, y ordenamos los datos y sus categorizaciones de forma manual.  
+
+Resultados.
+Esperamos poder tener un prototipo funcional que sea capaz de identificar los gasto que genera los usuarios y clasificarlo dependiendo de sus ingresos y donde lo compra.
+Los beneficios de ocupar EconomIA para los usuarios es bastante diversificado, lo principal sería el cómo gestionar el dinero, saber cómo lo gestiona y cómo ahorrar.
+
+
+https://docs.google.com/spreadsheets/d/1-lYk132ny9_55goQT4cQBfjHVj37SfPahOb4XwklWiU/edit?usp=sharing
