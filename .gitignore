@@ -1,3 +1,13 @@
 .DS_Store
 get-pip.py
 005_pln/chapter_7/61. ex_0514.ipynb
+007_proyecto/IMDB-Movie-Data.csv
+007_proyecto/MoviesOnStreamingPlatforms.csv
+007_proyecto/netflix_titles_nov_2019.csv
+ml-20m/
+007_proyecto/ml-20m.zip
+008_epilogo/Picaduras/env
+008_epilogo/Picaduras/API-deteccion-picadura-insectos/env
+temp_image.jpg
+007_proyecto/df_muestra.csvgit add .
+
