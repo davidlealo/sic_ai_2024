@@ -4,6 +4,8 @@
 
 Este proyecto utiliza un modelo de aprendizaje automático para detectar picaduras de insectos en imágenes.
 
+## Url Proyecto: https://api-deteccion-picadura-insectos-production.up.railway.app
+
 ## Instalación
 
 1. Clona este repositorio.
