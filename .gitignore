@@ -6,3 +6,8 @@ get-pip.py
 007_proyecto/netflix_titles_nov_2019.csv
 ml-20m/
 007_proyecto/ml-20m.zip
+008_epilogo/Picaduras/env
+008_epilogo/Picaduras/API-deteccion-picadura-insectos/env
+temp_image.jpg
+007_proyecto/df_muestra.csvgit add .
+
