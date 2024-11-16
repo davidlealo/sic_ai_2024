@@ -1,0 +1,85 @@
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #8371be;
+    text-shadow: -0.5px -0.5px 0 #48136e,
+        0.5px -0.5px 0 #48136e,
+        -0.5px 0.5px 0 #48136e,
+        0.5px 0.5px 0 #48136e;
+}
+
+h1,
+h2,
+h3 {
+    color: #8371be;
+}
+
+video {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #7678a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"],
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input[type="file"] {
+    margin: 10px auto;
+    justify-content: center;
+    padding: 10px;
+    background-color: #7678a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: #7678a4;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result,
+#localResult {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(152, 151, 192);
+    width: 50%;
+    justify-content: center;
+    color: #ccc;
+    text-decoration: solid 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+span{
+    color: #eeebf5;
+}

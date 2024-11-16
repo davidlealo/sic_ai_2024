@@ -1,55 +1,80 @@
-import cv2
-import base64
-from inference_sdk import InferenceHTTPClient
-from dotenv import load_dotenv
 import os
+from flask import app
+from dotenv import load_dotenv
+import base64
+from flask import Flask, request, jsonify, render_template
+import pyscreenshot
+from PIL import Image
+import numpy as np
+import os
+import io
+from inference_sdk import InferenceHTTPClient
 
-# Cargar las variables de entorno
+app = Flask(__name__)
+
+#cargar variables de entorno
 load_dotenv()
 
-# Inicializar cliente de inferencia de Roboflow
+# Configuración de Roboflow
+API_KEY = os.getenv('api_key')
+MODEL_ID = os.getenv("model_id")
+
+if not API_KEY or not MODEL_ID:
+    raise ValueError("Las variables de entorno 'api_key' y 'model_id' deben estar configuradas correctamente.")
+
+# Inicializar cliente de inferencia
 CLIENT = InferenceHTTPClient(
-    api_url="https://detect.roboflow.com",
-    api_key=os.getenv('ROBOFLOW_API_KEY')  # Tu clave API de Roboflow
+    api_url="https://outline.roboflow.com",
+    api_key=API_KEY
 )
 
-# Iniciar la captura de la webcam
-cap = cv2.VideoCapture(0)
+@app.route('/')
+def home():
+    # Renderiza la página principal con la interfaz de la cámara
+    return render_template('index.html')
 
-if not cap.isOpened():
-    print("No se puede acceder a la cámara")
-    exit()
 
-while True:
-    # Capturar frame por frame
-    ret, frame = cap.read()
+@app.route('/predict', methods=['POST'])
+def predict():
+    if 'image' not in request.files:
+        return jsonify({"success": False, "message": "No se ha subido ninguna imagen."}), 400
 
-    if not ret:
-        print("No se puede recibir frame. Finalizando...")
-        break
+    file = request.files['image']
+    if file.filename == '':
+        return jsonify({"success": False, "message": "No se ha seleccionado ninguna imagen."}), 400
 
-    # Mostrar el frame capturado en una ventana
-    cv2.imshow('Webcam - Presiona "q" para salir', frame)
-
-    # Guardar la imagen capturada temporalmente
-    image_path = "temp_image.jpg"
-    cv2.imwrite(image_path, frame)
-
-    # Convertir la imagen a base64 para enviarla a Roboflow
-    with open(image_path, "rb") as img_file:
-        encoded_image = base64.b64encode(img_file.read()).decode('utf-8')
-
-    # Enviar la imagen a Roboflow
     try:
-        result = CLIENT.infer(image_path, model_id="insect-bites/1")
-        print(result)  # Mostrar el resultado de la detección
+        # Convertir la imagen usando PIL
+        image = Image.open(file)
+        # Convertir a base64
+        buffered = io.BytesIO()
+        image.save(buffered, format="PNG")
+        img_str = base64.b64encode(buffered.getvalue()).decode()
+
+        # Hacer la predicción con la imagen en base64
+        result = CLIENT.infer(img_str, model_id=MODEL_ID)
+        return jsonify({"success": True, "prediction": result['predictions'][0]['class']})
+        
     except Exception as e:
-        print(f"Error en la inferencia: {str(e)}")
+        return jsonify({"success": False, "message": str(e)}), 500
 
-    # Presiona 'q' para salir del bucle
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+@app.route('/predict_webcam', methods=['POST'])
+def predict_webcam():
+    data = request.get_json()
+    if 'image' not in data:
+        return jsonify({'success': False, 'message': 'No se recibió imagen.'}), 400
 
-# Cuando todo esté hecho, libera la captura
-cap.release()
-cv2.destroyAllWindows()
+    try:
+        # Usar directamente la imagen en base64
+        image_data = data['image'].split(',')[1]
+        
+        # Realizar inferencia con la imagen en base64
+        result = CLIENT.infer(image_data, model_id=MODEL_ID)
+        return jsonify({"success": True, "prediction": result['predictions'][0]['class']})
+    
+    except Exception as e:
+        return jsonify({'success': False, 'message': str(e)}), 500
+    
+    
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))

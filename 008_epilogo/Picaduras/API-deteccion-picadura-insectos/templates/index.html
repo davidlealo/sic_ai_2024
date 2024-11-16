@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Picaduras</title>
+    <link rel="stylesheet" href=".\static\css\styles.css">
+</head>
+
+<body>
+    <h1>Predicción de Picaduras de Insectos</h1>
+
+    <h2>Captura desde Webcam</h2>
+    <video id="webcam" autoplay width="640" height="480"></video>
+    <button id="capture">Capturar Imagen</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+
+    <h3><span>Predicción desde Webcam</span></h3>
+    <div id="result"></div>
+
+    <h2>Sube una Imagen</h2>
+    <form id="uploadForm" action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <input type="submit" value="Predecir">
+    </form>
+    <h3><span>Predicción desde Imagen Subida</span></h3>
+    <div id="localResult"></div>
+
+    <script src=".\static\js\script.js"></script>
+</body>
+
+</html>
