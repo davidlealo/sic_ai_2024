@@ -40,7 +40,7 @@ Este proyecto utiliza un modelo de aprendizaje automático para detectar picadur
     pip install -r requirements.txt
     ```
 
-6. Ejecutar proyecto detección WebCam:
+6. Ejecutar proyecto:
 
     Windows:
     ```bash
@@ -52,18 +52,6 @@ Este proyecto utiliza un modelo de aprendizaje automático para detectar picadur
     python3 app.py
     ```
 
-7. Ejecutar proyecto de detección Local: 
-
-    Windows:
-    ```bash
-    python app.py
-    ```
-
-    Mac/Linux:
-    
-    ```bash
-    python3 app.py
-    ```
 
 
 
