@@ -1,76 +1,58 @@
-# Ejercicios de preprocesamiento
+# Preprocesamiento
 
-El día de hoy realizaremos un ejercicio de trabajo en grupos. Cada grupo tendrá una subunidad asignada la que deberá explicar generando un archivo de práctica con ejemplos y ejercicios para resolver en el curso.
+En esta carpeta abordamos diversos temas relacionados con el preprocesamiento de datos, utilizando principalmente las bibliotecas Numpy y Pandas, así como técnicas de visualización de datos. A continuación, se detalla el contenido de cada sección y los enlaces a los notebooks correspondientes.
 
-Debes dejar tu ejercicio en la carpeta de tu capítulo, según corresponda, recuerda que debemos ignorar los archivos que no son código. 
+## Numpy
 
-# Enlaces a Carpetas
+Numpy es una biblioteca fundamental para el cálculo numérico en Python. Nos permite trabajar con arreglos multidimensionales de manera eficiente.
 
-- [3.1.3 NumPy Array Operations](./3.1.3_NumPy_Array_Operations/)
-- [3.1.4 NumPy Indexing and Slicing](./3.1.4_NumPy_Indexing_and_Slicing/)
-- [3.1.5 Array Transposition and Axis Swap](./3.1.5_Array_Transposition_and_Axis_Swap/)
+- [**Introducción a Numpy**](Clase3_SIC_AI_2024.ipynb): En esta clase, presentamos los conceptos básicos de Numpy, incluyendo la creación y manipulación de arreglos.
+- [**Conceptos básicos de Numpy**](Clase4_SIC_AI_2024.ipynb): Aquí exploramos funciones esenciales de Numpy, como las operaciones aritméticas y la manipulación de datos en arreglos.
+- [**Operaciones con Numpy y trabajo con Github**](Clase5_SIC_AI_2024.ipynb): Esta clase cubre operaciones avanzadas con Numpy, además de una introducción al uso de Git y GitHub para la gestión de versiones de nuestros proyectos.
 
+## Pandas
 
-# Instrucciones para colaborar en este repositorio utilizando Google Colab
+Pandas es una biblioteca de Python especializada en la manipulación y análisis de datos estructurados (como tablas de datos).
 
-Sigue estos pasos para hacer un fork de este repositorio, trabajar en él desde Google Colab y enviar tus cambios mediante un pull request.
+- [**Introducción a Pandas**](Clase6_SIC_AI_2024.ipynb): Se introduce Pandas y se explica cómo crear y manipular DataFrames, la estructura de datos principal de Pandas.
+- [**Uso de Pandas**](Clase7_SIC_AI_2024.ipynb): Profundizamos en el uso de Pandas para realizar operaciones de limpieza, filtrado y agregación de datos.
 
-## 1. Hacer Fork del Repositorio
+## Visualización de Datos
 
-1. Ve al repositorio original en GitHub.
-2. Haz clic en el botón "Fork" en la esquina superior derecha para crear una copia del repositorio en tu cuenta de GitHub.
+La visualización de datos es crucial para el análisis y la comunicación de información.
 
-## 2. Clonar el Repositorio Fork en Google Colab
+- [**Clase de visualización**](Clase8_SIC_AI_2024.ipynb): En esta clase, exploramos diversas técnicas de visualización de datos utilizando bibliotecas como Matplotlib y Seaborn para crear gráficos informativos y atractivos.
 
-1. Ve a [Google Colab](https://colab.research.google.com/) e inicia sesión con tu cuenta de Google.
-2. Abre una nueva libreta en Colab.
-3. En la primera celda, ejecuta el siguiente código para clonar tu repositorio fork:
+## Cómo Utilizar Este Repositorio
 
-    ```python
-    !git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-    %cd nombre-del-repositorio
+1. Clonar el repositorio:
+    ```bash
+    git clone https://github.com/davidlealo/sic_ai_2024.git
+    cd sic_ai_2024/002_preprocesamiento
     ```
 
-4. Reemplaza `tu-usuario` con tu nombre de usuario de GitHub y `nombre-del-repositorio` con el nombre del repositorio que has forked.
-
-## 3. Crear una Nueva Rama
-
-1. Antes de hacer cualquier cambio, crea una nueva rama para trabajar en tu tema específico:
-
-    ```python
-    !git checkout -b nombre-de-la-rama
+2. Instalar las dependencias:
+    ```bash
+    pip install -r requirements.txt
     ```
 
-2. Reemplaza `nombre-de-la-rama` con un nombre descriptivo para tu rama.
-
-## 4. Trabajar en los Archivos
-
-1. Abre y edita los archivos `.ipynb` dentro del repositorio clonado.
-2. Puedes usar el navegador de archivos en la parte izquierda de la interfaz de Colab para abrir un notebook específico.
-
-## 5. Guardar y Hacer Commits
-
-1. Una vez que hayas hecho los cambios necesarios, guarda los cambios y haz commits directamente desde Colab usando los siguientes comandos:
-
-    ```python
-    !git add nombre-del-archivo.ipynb
-    !git commit -m "Descripción de los cambios"
+3. Ejecutar los notebooks en Jupyter:
+    ```bash
+    jupyter notebook
     ```
 
-2. Reemplaza `nombre-del-archivo.ipynb` con el nombre del archivo que has editado y proporciona una descripción adecuada de los cambios en el commit.
+4. Explorar los notebooks mencionados para aprender sobre los diferentes temas de preprocesamiento de datos.
 
-## 6. Empujar los Cambios a tu Repositorio Fork
+## Contribuciones
 
-1. Empuja los cambios a tu repositorio fork en GitHub:
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-    ```python
-    !git push origin nombre-de-la-rama
-    ```
+1. Haz un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commits (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Envía tus cambios a tu fork (`git push origin feature/nueva-funcionalidad`).
+5. Crea un Pull Request en el repositorio original.
 
-2. Asegúrate de reemplazar `nombre-de-la-rama` con el nombre de la rama que has creado.
+## Contacto
 
-## 7. Crear un Pull Request
-
-1. Ve a tu repositorio fork en GitHub.
-2. Haz clic en el botón "Compare & pull request" para iniciar el proceso de creación del pull request.
-3. Proporciona una descripción detallada de los cambios y envía el pull request para revisión.
+Para preguntas o comentarios, por favor contacta a `davidlealo`.
