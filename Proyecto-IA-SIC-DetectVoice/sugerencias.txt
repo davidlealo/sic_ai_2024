@@ -1,8 +1,0 @@
-como ayuda te recomiendo ejecutar este comando si lo usaras en windows
-
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-
-
-lo que hace es descargar Chocolatey lo que te ayudara a descargar por consola el ffmpeg y asi no haces el trabajo de buscar formas que probablemente fallen 
-
-el comando para descargar ffmpeg  es choco install ffmpeg -y
