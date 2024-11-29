@@ -3,7 +3,7 @@
 ## Sobre el curso
 
 **Nombre del curso:** SIC AI 2024 Chile  
-**Fechas de realización:** Desde el 4 de julio a finales de octubre, 2024  
+**Fechas de realización:** Desde el 4 de julio al 27 de noviemde de 2024  
 **Profesor:** David Leal Olivares [@davidlealo](https://github.com/davidlealo)  
 
 ## Introducción
