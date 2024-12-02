@@ -46,7 +46,12 @@ Carpeta de Deep Learning
 En esta etapa final, se desarrolla un proyecto que aplica los conocimientos adquiridos durante el curso a un problema real. La información sobre el proyecto final se encuentra en:
 
 Carpeta de Proyecto final
-> [Carpeta de Proyecto](./075_proyecto/)
+> [Carpeta de Proyecto](./007_proyecto/)
+
+## Epílogo
+En esta carpeta encontraremos las clases finales, recuperativas y los proyectos finales de los equipos:
+Carpeta de Epílogo
+> [Epílogo](./008_epilogo/)
 
 
 ## Cómo Utilizar Este Repositorio
